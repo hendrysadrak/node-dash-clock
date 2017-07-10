@@ -3,63 +3,20 @@
 > Terminal Clock
 
 
-## Install
+## Install it!
 
 ```
-$ npm install dash-clock
-```
-
-
-## Usage
-
-```js
-const dashClock = require('dash-clock');
-
-dashClock('unicorns');
-//=> 'unicorns & rainbows'
+$ npm install -g dash-clock
 ```
 
 
-## API
-
-### dashClock(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
-
-## CLI
+## Start!
 
 ```
-$ npm install --global dash-clock
+$ dash-clock
 ```
-
 ```
 $ dash-clock --help
-
-  Usage
-    dash-clock [input]
-
-  Options
-    --foo  Lorem ipsum [Default: false]
-
-  Examples
-    $ dash-clock
-    unicorns & rainbows
-    $ dash-clock ponies
-    ponies & rainbows
 ```
 
 
