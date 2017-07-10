@@ -4,7 +4,7 @@
 
 
 const meow      = require( 'meow' );
-const dashClock = require( '.' );
+const dashClock = require( './lib' );
 
 
 const cli = meow( `
@@ -22,7 +22,4 @@ const cli = meow( `
 ` );
 
 
-const arg0 = cli.input[ 0 ] || 'unicorns';
-
-
-console.log( dashClock( arg0 ) );
+dashClock( cli.input, cli.flags );
