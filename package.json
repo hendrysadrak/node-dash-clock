@@ -1,0 +1,35 @@
+{
+	"name": "dash-clock",
+	"version": "0.0.0",
+	"description": "Terminal Clock",
+	"license": "MIT",
+	"repository": "hendrysadrak/dash-clock",
+	"author": {
+		"name": "Hendry Sadrak",
+		"email": "hendry.sadrak@outlook.com",
+		"url": "hendrysadrak.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"meow": "^3.7.0"
+	},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
