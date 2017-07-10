@@ -1,6 +1,6 @@
 {
 	"name": "dash-clock",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Clock for your Terminal",
 	"license": "MIT",
 	"repository": "hendrysadrak/node-dash-clock",
