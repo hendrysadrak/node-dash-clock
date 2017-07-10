@@ -4,7 +4,7 @@
 
 
 const meow      = require( 'meow' );
-const dashClock = require( __dirname + 'lib/' );
+const dashClock = require( `${__dirname}/lib/` );
 
 
 const cli = meow( `
